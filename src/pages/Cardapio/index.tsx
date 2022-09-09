@@ -7,9 +7,9 @@ export default function Cardapio() {
 			<nav className={style.menu}>
 				<Logo />
 			</nav>
-			<header className={Style.header}>
-				<div className={Style.header__text}>
-					
+			<header className={style.header}>
+				<div className={style.header__text}>
+					A Casa do código e da massa
 				</div>
 			</header>
 		</main>
