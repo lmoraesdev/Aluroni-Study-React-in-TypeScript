@@ -7,6 +7,11 @@ export default function Cardapio() {
 			<nav className={style.menu}>
 				<Logo />
 			</nav>
+			<header className={Style.header}>
+				<div className={Style.header__text}>
+					
+				</div>
+			</header>
 		</main>
 	);
 }
