@@ -1,7 +1,7 @@
 import React from "react";
 import filtros from "./filtros.json";
 import styles from "./Filtros.module.scss";
-import classNamess from "classnames";
+import styled from "classnames";
 
 type IOpcao = typeof filtros[0];
 
@@ -19,7 +19,7 @@ export default function Filtros({ filtro, setFiltro }: Props) {
 		<div className={styles.filtros}>
 			{filtros.map((opcao) => (
 				<button
-					className={classNamess({
+					className={styled({
 						[styles.filtros__filtro]: true,
 						[styles["filtros__filtro--ativo"]]: filtro === opcao.id,
 					})}
